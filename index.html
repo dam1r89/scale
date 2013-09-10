@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scale</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="http://apod.nasa.gov/apod/image/1102/rosette_lula_1700.jpg" alt="">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>	
+	<script src="scale.js"></script>
+	<script>
+		$(window).load(function(){
+			$('img').scale({type: 'fill'});
+		})
+	</script>
+</body>
+</html>
